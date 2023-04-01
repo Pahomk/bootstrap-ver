@@ -1,4 +1,4 @@
-if (typeof obj === 'warningHandler')
+if (!(typeof obj === 'warningHandler'))
 {
     document.body.innerHTML="";
 }
